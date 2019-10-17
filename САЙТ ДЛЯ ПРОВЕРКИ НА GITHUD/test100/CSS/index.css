@@ -1,0 +1,215 @@
+body{
+    background: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding:0;
+    margin:0;
+
+}
+div,p,a,img,form,button{
+
+    box-sizing:  border-box;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+margin:0;
+padding:0;
+
+
+}
+
+a{
+
+text-decoration: none;
+
+
+}
+
+
+
+ul, li {
+
+display: block;
+padding: 0;
+margin:0;
+
+}
+
+.header{
+    color:green;
+    font-size:20px;
+}
+
+.container{
+    width:1140px;
+    margin:0 auto;
+
+}
+
+.nav{
+display:flex;
+align-items: center;
+margin-top:40 ;
+
+
+
+}
+
+.menu  {
+display:flex;
+margin-left:160px;
+}
+
+.menu li a {
+color: #fff;
+padding:12px 0 ;
+
+}
+
+.menu li a:hover{
+transition: all 0.5s ease ;
+}
+
+.menu li{
+font-size:15px;
+margin-right: 25px;
+}
+
+.menu li.active a {
+
+color:#6bff4d;
+border-top: 1px solid #6bff4d;
+border-bottom: 1px solid #6bff4d;
+
+}
+
+
+
+.logo{
+
+}
+
+.phone{
+font-style: 1px;
+margin-left:auto;
+transition: all 0.5s ease ;
+}
+
+.phone:hover{
+    font-style: 20px;
+    margin-left:auto;
+    transition: all 0.9s ease ;
+    }
+
+
+    .offer-content h1 {
+font-size:37px ;
+font-weight:900;
+    }
+
+    .offer-content p {
+font-size:16px;
+font-weight:200;
+margin-top:50px;
+
+    }
+
+
+    .offer-content a {
+background:orangered;
+color:#000;
+font-weight:900;
+font-size:18px;
+width:180px;
+display: block;
+text-align: center;
+padding:17px 0;
+margin-top:35px ;
+
+    }
+
+
+    .offer-content a:hover {
+    background:rgb(83, 173, 22);
+    transition:all 0.9s ease;   
+        
+            }
+
+
+ .triangles{
+
+background: url("../IMG/Безымянный.png");
+width:248px; 
+height:130px;
+
+ }      
+
+ .triangles{
+
+    background: url("../IMG/icon_dark_green_by_milkinside.gif");
+    width:600px; 
+    height:600px;
+
+    
+     }      
+    
+ .offer{
+  display: flex
+   
+ }
+
+ .sup1 :hover{
+padding-top: 10px;
+padding-left:100px;
+
+    background:rgb(83, 173, 22);
+    transition:all 1s ease;   
+ }
+
+
+ .folded {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 640px;
+    height: 400px;
+    display: flex;
+  }
+  .folded-itm {
+    list-style: none;
+    width: 25%;
+    background: url(../IMG/halloween-trailer_dribbble_1.gif);
+    background-size: cover;
+    height: 100%;
+    transition: 0.5s;
+  }
+  .folded:hover .folded-itm:nth-child(odd) {
+    transform: skewY(15deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+  }
+  .folded:hover .folded-itm:nth-child(even) {
+    transform: skewY(-15deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+  }
+  
+  .folded .folded-itm:nth-child(1) {
+    background-position: 0;
+  }
+  .folded .folded-itm:nth-child(2) {
+    background-position: -160px;
+  }
+  .folded .folded-itm:nth-child(3) {
+    background-position: -320px;
+  }
+  .folded .folded-itm:nth-child(4) {
+    background-position: -480px;
+  }
+ 
+
+
+  
